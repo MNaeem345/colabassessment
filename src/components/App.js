@@ -1,18 +1,21 @@
 import React from "react";
-import Navbar from './Navbar';
-import Main from './Main'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Projects from './Projects';
+import Navbar from "./Navbar";
 
-
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      <Main />
-      <Main />
-      <Main />
+    <div>
+      <Navbar/>
+    <Router>
+      
+      <Routes>
+        <Route exact path="/projects" component={Projects} />
+      </Routes>
+    </Router>
     </div>
   );
-}
+};
 
 export default App;
+

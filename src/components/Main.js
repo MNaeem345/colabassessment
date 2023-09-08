@@ -6,7 +6,6 @@ import Typed from 'react-typed';
 
 
 
-
 function Main(){
     const [text, setText] = useState("")
     const [fullText, setFullText] = useState(
@@ -44,21 +43,23 @@ function Main(){
         <Container maxWidth='md' className='about-component'>
             
             <p className='about-title'>{text}</p>
-            <h1>{text2}</h1>
+            <h1 className='first'>{text2}</h1>
             
-            <h2><Typed 
+            <h2 className='second'><Typed 
                 strings={["I love developing.",
                         "I love building.",
                         "I love solving problems.",
-                        "Welcome to my portfolio!"]}
+                        "Welcome!"]}
                 typeSpeed = {100}
                 backSpeed = {50}
                 loop
                 
                 />
             </h2>
-            <p className='about-me'>I am a Front-End developer looking to create responsive and eye catching applications that users can find 
-                apealing. 
+            <p className='about-me'>I am a <span style={{color:'lightyellow'}}>Front-End developer </span> looking to create responsive and eye catching applications that users can find 
+                apealing. For the past year and a half, I have been expanding my knowledge of what I learned at <span style={{color: 'lightskyblue'}}>Coding Temple</span> which included tools like <span style={{color: 'lightskyblue'}}>React</span>. Recently I have been able to 
+                intern as a <span style={{color:'lightsteelblue'}}>Data Analyst</span> with an M&A firm, Sunfield Advisors. At Sunfield, I was able to expand my knowledge of both Front-End development,
+                as well as tools like excel. I was able to work with a team to design a website as a side project. 
             </p>
       
 

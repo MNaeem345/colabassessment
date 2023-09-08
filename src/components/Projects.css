@@ -1,0 +1,122 @@
+.other{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem,16rem));
+    gap:4rem;
+    
+}
+
+.all-projects{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.video1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  video {
+    max-width: 100%; 
+    max-height: 100%; 
+  }
+
+  .my-projects{
+    font-size: 70px;
+    padding-bottom: 20px;
+    margin-top: 105px;
+    color:rgb(8, 47, 66);
+    font-family:sans-serif;
+    font-weight: light;
+  }
+
+
+
+.project4,
+.project3,
+.project2,
+.project1{
+    width: 19rem;
+    border-radius: 1rem;
+    box-shadow: 9px 10px 8px rgba(0, 0, 0, 0.2);
+    
+    
+    height: fit-content;
+    margin: 0.5rem;
+   
+}
+.project4:hover,
+.project3:hover,
+.project2:hover,
+.project1:hover{
+    transform: scale(1.0110);
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.2);
+    
+
+}
+
+.video4,
+.video3,
+.video1{
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+}
+
+.project4-description,
+.project3-description,
+.project2-description,
+.project1-description{
+    margin:0.5rem 5%;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size: large;
+    color: rgb(13, 178, 219);
+}
+
+.project4-title,
+.project3-title,
+.project2-title,
+.project1-title{
+    margin:0.5rem 5%;
+    font-size: 50px;
+    font-family:sans-serif;
+    font-weight: light;
+    color: rgb(249, 252, 112);
+    
+}
+
+.github-button{
+    height: 60px;
+    width: 90%;
+    border-radius: 9px;
+    border: none;
+    font-size: 50px;
+    margin: 0.5rem auto;
+    background-color: lightyellow;
+    justify-content: center;
+    box-shadow: 12px -12px 9px rgba(0, 0, 0, 0.2)
+
+}
+
+.github-button:hover{
+    transform: scale(1.1);
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.fa-github::before{
+    background-color: black;
+}
+.fa-github::before {
+    
+    background-color: rgb(255, 255, 215);
+}
+
+
+
+
+

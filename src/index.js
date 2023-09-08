@@ -2,11 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+import Main from './components/Main';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import BackToTopButton from './components/backToTopButton';
+import Test from './components/Test';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    <Main />
+    <Projects/>
+    <BackToTopButton/>
   </React.StrictMode>
 );
 
