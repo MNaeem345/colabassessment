@@ -40,6 +40,7 @@ function Main(){
            
 
     return (
+        <section id='about'>
         <Container maxWidth='md' className='about-component'>
             
             <p className='about-title'>{text}</p>
@@ -64,6 +65,7 @@ function Main(){
       
 
         </Container>
+        </section>
     )
 }
 

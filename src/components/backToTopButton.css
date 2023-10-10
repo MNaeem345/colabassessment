@@ -9,7 +9,7 @@
     background-color: black;
 }
 .fa-arrow-up::before {
-    content: "\f062";
+    
     background-color: rgb(255, 255, 215);
 }
 

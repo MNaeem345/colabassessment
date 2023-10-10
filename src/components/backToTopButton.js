@@ -47,24 +47,7 @@ function BackToTopButton(){
                 
             }}
             onClick={scrollUp}
-            ><i class= "fa-solid fa-arrow-up" swapOpacity></i></button>
-        )}
-        {backToTopButton && (
-            <button className="button-scroll" style={{
-                position:"fixed",
-                bottom: "70px",
-                right: "150px",
-                height: "70px",
-                width: "70px",
-                fontSize: "40px",
-                cursor: 'pointer',
-                borderRadius: "50px",
-                backgroundColor:"lightyellow",
-                border:"None",
-                
-            }}
-            onClick={() => scrollToSection('contact')}
-            ><i class= "fa-solid fa-arrow-down" swapOpacity></i></button>
+            ><i class= "fa-solid fa-arrow-up" style={{color:"black",}} swapOpacity></i></button>
         )}
         
 
